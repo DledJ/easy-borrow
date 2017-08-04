@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+#include("./layout/layout.html")
+<title>授信结果页</title>
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="">
+        <a class="back" href="#"><img class="back-ico" src="images/back-ico.png" alt="" />返回</a><h2 class="title">授信</h2>
+    </header>
+    <section class="mb20">
+        <div class="inside-bg">
+            <div class="credit-form">
+                <!-- 审核中 -->
+                <div class="credit-result fn-hide">
+                    <i class="result-ico waiting-ico"></i>
+                    <div class="result-txt ft-333">亲爱的xxx，您的申请已提交，正在审核请耐心等待...</div>
+                </div>
+                <!-- 失败 -->
+                <div class="credit-result">
+                    <i class="result-ico fail-ico"></i>
+                    <div class="result-txt ft-333">亲爱的XXX,你的申请在审批中被退回，<br>请拨打400911电话咨询，<br>或重新提交申请。</div>
+                </div>
+
+
+
+                <div class="choose-btn mt50 mb20">
+                    <a href="" class="btn btn-normal">返回现金贷</a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+#include("./layout/scripts.html")
+</body>
+</html>

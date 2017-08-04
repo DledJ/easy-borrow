@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+#include("./layout/layout.html")
+<title>主页</title>
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="">
+        <a class="back" href="#"><img class="back-ico" src="images/back-ico.png" alt="" />返回</a><h2 class="title">现金贷</h2>
+    </header>
+    <section>
+    	<div class="banner-list">
+    		<ul class="fn-clear">
+    			<li>
+    				<img src="images/banner-pic1.jpg" alt="">
+    			</li>
+    			<li>
+    				<img src="images/banner-pic1.jpg" alt="">
+    			</li>
+    			<li>
+    				<img src="images/banner-pic1.jpg" alt="">
+    			</li>
+    		</ul>
+    		<div class="banner-bar">
+    			<div class="bar-module">
+    				<i class="banner-bar-ico active"></i><i class="banner-bar-ico ml15"></i><i class="banner-bar-ico ml15"></i>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- 授信前 -->
+    	<div class="index-main">
+    		<div class="index-module1">
+    			<div class="module-innner">
+    				<a href="">
+	    				<i class="inner-ico inner-ico1"><img src="images/module1-ico.png" alt=""></i>
+	    				<div class="inner-txt ft-333">员工随手借</div>
+    				</a>
+    			</div>
+    			<div class="module-innner module-default">
+    				<a href="">
+	    				<i class="inner-ico inner-ico2"><img src="images/module2-ico.png" alt=""></i>
+	    				<div class="inner-txt ft-bbb">虚拟信用卡</div>
+    				</a>
+    			</div>
+    		</div>
+    		<div class="index-module2">
+    			<div class="module2-item">
+    				<div class="module2-innner">
+    					<div class="inner-label">个人信息</div>
+    					<div class="">李**</div>
+    				</div>
+    				<div class="module2-innner">
+    					<a href="" class="right-btn">查看<i class="right-bar"></i></a>
+    				</div>
+    			</div>
+    			<div class="module2-item mt25">
+    				<div class="module2-innner">
+    					<div class="inner-label">我的授信</div>
+    					<div class="">员工随手借</div>
+    				</div>
+    				<div class="module2-innner">
+    					<a href="" class="right-btn">授信申请中<i class="right-bar"></i></a>
+    				</div>
+    			</div>
+    			<div class="module2-item mt25">
+    				<div class="module2-innner">
+    					<div class="inner-label">我的授信</div>
+    					<div class="">虚拟信用卡</div>
+    				</div>
+    				<div class="module2-innner">
+    					<a href="" class="right-btn">授信失败<i class="right-bar"></i></a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<!-- 授信后 -->
+    	<div class="index-main fn-hide">
+    		<div class="index-module3 mt25">
+    			<div class="module3-inner1">
+    				<div class="fn-tac">
+    					<i class="inner-ico inner-ico1"><img src="images/module1-ico.png" alt=""></i>
+    					<div class="inner-txt">员工随手借</div>
+    				</div>
+    				<div class="inner-line"></div>
+    			</div>
+    			<div class="module3-inner2">
+    				<div class="">
+    					<div class="innner2-title ft-333">最高可借<em class="ft-red">5000</em></div>
+    					<div class="module-info">
+    						<div class="info">
+    							<i class="info-ico info-ico1"></i>
+    							<div class="">超低费率</div>
+    						</div>
+    						<div class="info">
+    							<i class="info-ico info-ico2"></i>
+    							<div class="">仅限员工</div>
+    						</div>
+    						<div class="info">
+    							<i class="info-ico info-ico3"></i>
+    							<div class="">随借随还</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="index-module3 mt25 module3-default">
+    			<div class="module3-inner1">
+    				<div class="fn-tac">
+    					<i class="inner-ico inner-ico2"><img src="images/module2-ico.png" alt=""></i>
+    					<div class="inner-txt">虚拟信用卡</div>
+    				</div>
+    				<div class="inner-line"></div>
+    			</div>
+    			<div class="module3-inner2">
+    				<div class="">
+    					<div class="innner2-title ft-999">在线急速申请</div>
+    					<div class="innner2-title2">暂未开放</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+	<!-- 弹出层 -->
+	<div class="layer-bg fn-hide">
+		<div class="layer">
+			<div class="layer-main border-b">
+				<div class="fn-tac layer-title">您还未登录金融超市，需要先登录才能进行相关操作。</div>
+			</div>
+			<div class="layer-btn">
+				<div class="btn-inner">
+					<a href="" class="btn-default">取消</a>
+				</div>
+				<div class="btn-inner">
+					<a href="" class="btn-primary">去登陆</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+#include("./layout/scripts.html")
+</body>
+</html>
